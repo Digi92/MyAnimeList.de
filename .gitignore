@@ -25,5 +25,6 @@
 /typo3conf/ENABLE_INSTALL_TOOL
 
 # Additional Ignores
+.DS\_Store
 /typo3conf/ext/main/Resources/Public/CSS/*
 /typo3conf/ext/main/Resources/Public/SCSS/.sass-cache
