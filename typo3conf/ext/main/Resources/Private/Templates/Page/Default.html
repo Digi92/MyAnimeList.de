@@ -1,0 +1,48 @@
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+<f:layout name="Page/Standard" />
+
+<f:comment> <!--
+============================================
+Config
+============================================
+--></f:comment>
+
+<f:section name="Configuration">
+    <flux:form id="defaultPageLayout" icon="{f:uri.resource(path:'Images/col2.png')}">
+        <flux:grid>
+
+            <flux:grid.row>
+
+                <flux:grid.column colPos="0" colspan="9" name="Main Content"/>
+            </flux:grid.row>
+
+            <flux:grid.row>
+                <flux:grid.column colPos="10" colspan="12" name="Footer Content"/>
+            </flux:grid.row>
+
+        </flux:grid>
+    </flux:form>
+</f:section>
+
+<f:comment> <!--
+============================================
+ Content
+============================================
+--></f:comment>
+
+<f:section name="Main">
+
+    <header>
+        <div class="logo"><img src="" alt="My-Anime-List.de" title="logo"></div>
+        <f:render partial="Page/Navigation"/>
+    </header>
+
+    <main>
+        <v:content.render column="0"/>
+    </main>
+
+    <footer>
+        <v:content.render column="10"/>
+    </footer>
+</f:section>

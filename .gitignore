@@ -1,5 +1,6 @@
 ## TYPO3 v4
 # Ignore serveral upload and file directories.
+/fileadmin/_processed_/
 /fileadmin/user_upload/
 /fileadmin/_temp_/
 /uploads/
@@ -12,7 +13,17 @@
 /typo3conf/localconf_local.php
 # Ignore system folders, you should have them symlinked.
 # If not comment out the following two entries.
+/typo3_src
 /typo3
+/index.php
 /t3lib
 # Ignore temp directory.
 /typo3temp/
+# Ignore IDE directory.
+/.idea
+# Ignore Enable Install Tool
+/typo3conf/ENABLE_INSTALL_TOOL
+
+# Additional Ignores
+/typo3conf/ext/main/Resources/Public/CSS/*
+/typo3conf/ext/main/Resources/Public/SCSS/.sass-cache

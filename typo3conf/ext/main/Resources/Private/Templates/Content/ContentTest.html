@@ -1,0 +1,43 @@
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+<f:layout name="Content/Standard" />
+
+<f:comment> <!--
+============================================
+ Config
+============================================
+--></f:comment>
+
+<f:section name="Configuration">
+    <flux:form id="contentTest" wizardTab="Condor Inhaltselemente" label="content test" icon="">
+        <flux:field.text name="text" label="Text">
+        </flux:field.text>
+        <flux:field.select name="wellStyle" label="Optional Well Style Color" items="{red: 'red', blue: 'blue', black: 'black'}" default="black" />
+    </flux:form>
+</f:section>
+
+
+<f:comment> <!--
+============================================
+ Preview
+============================================
+--></f:comment>
+
+<f:section name="Preview">
+    <b>ContentTest Element</b>
+    <br/>
+    <b>Text:</b> {text}
+</f:section>
+
+
+<f:comment> <!--
+============================================
+ Content
+============================================
+--></f:comment>
+
+<f:section name="Main">
+    <div class="color" style="color:{wellStyle};">
+        {text}
+    </div>
+</f:section>

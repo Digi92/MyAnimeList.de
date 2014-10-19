@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-09-14T02:52:48Z" product-name="myanimelist">
+		<header/>
+		<body>
+			<trans-unit id="tx_myanimelist_domain_model_series">
+				<source>Series</source>
+				<target>Serien</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_series.title">
+				<source>Title</source>
+				<target>Name</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_series.title_jp">
+				<source>Title in Japanese</source>
+				<target>Name auf Japanisch</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_series.image">
+				<source>Image</source>
+				<target>Bild</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_series.episodes">
+				<source>Episodes</source>
+				<target>Folgen</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_series.release_date">
+				<source>Release Date</source>
+				<target>Erscheinungsdatum</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_series.ending_date">
+				<source>Ending Date</source>
+				<target>Enddatum</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_series.description">
+				<source>Description</source>
+				<target>Bezeichnung</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_series.status">
+				<source>Status</source>
+				<target>Status</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_series.genre">
+				<source>Genre</source>
+				<target>Genre</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_movies">
+				<source>Movies</source>
+				<target>Filme</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_movies.title">
+				<source>Title</source>
+				<target>Name</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_movies.title_jp">
+				<source>Title in Japanese</source>
+				<target>Name auf Japanisch</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_movies.image">
+				<source>Image</source>
+				<target>Bild</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_movies.lenght">
+				<source>Lenght</source>
+				<target>Länge</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_movies.relase_date">
+				<source>Relase Date</source>
+				<target>Erscheinungsdatum</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_movies.description">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_movies.series">
+				<source>Series</source>
+				<target>Serien</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_movies.genre">
+				<source>Genre</source>
+				<target>Genre</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_status">
+				<source>Status</source>
+				<target>Status</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_status.title">
+				<source>Title</source>
+				<target>Name</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_feuser">
+				<source>My Anime List</source>
+				<target>My Anime List</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_feuser.series">
+				<source>Series</source>
+				<target>Derien</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_feuser.movies">
+				<source>Movies</source>
+				<target>Filme</target>
+			</trans-unit>
+			<trans-unit id="fe_users.tx_extbase_type.Tx_Myanimelist_FeUser">
+				<source>MyAnimeList FeUser</source>
+				<target>MyAnimeList FeUser</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_genre">
+				<source>Genre</source>
+				<target>Genre</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_genre.title">
+				<source>Title</source>
+				<target>Name</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_genre.description">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_feuserseriesdata">
+				<source>Feuser Series MM</source>
+				<target>Feuser Serien MM</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_feuserseriesdata.viewed">
+				<source>Viewed</source>
+				<target>Geschaut</target>
+			</trans-unit>
+			<trans-unit id="tx_myanimelist_domain_model_feuserseriesdata.serie">
+				<source>Serie</source>
+				<target>Serie</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

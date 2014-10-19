@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Labels for languages: default</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="flux.col2">Page 2Col</label>
+			<label index="flux.defaultPageLayout">Default Page Layout</label>
+		</languageKey>
+	</data>
+</T3locallang>

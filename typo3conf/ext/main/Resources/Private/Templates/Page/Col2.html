@@ -1,0 +1,71 @@
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+<f:layout name="Page/Standard" />
+
+<f:comment> <!--
+============================================
+Config
+============================================
+--></f:comment>
+
+<f:section name="Configuration">
+
+    <flux:form id="col2"  icon="{f:uri.resource(path:'Images/col2.png')}">
+
+        <flux:field.checkbox name="settings.hideHeader" label="Do not show header" />
+
+        <flux:grid>
+
+            <flux:grid.row>
+                <flux:grid.column colPos="20" colspan="12" name="Header"/>
+            </flux:grid.row>
+
+            <flux:grid.row>
+                <flux:grid.column colPos="1" colspan="3" name="Column 1"/>
+                <flux:grid.column colPos="0" colspan="9" name="Main Content"/>
+            </flux:grid.row>
+
+            <flux:grid.row>
+                <flux:grid.column colPos="10" colspan="12" name="Footer Content"/>
+            </flux:grid.row>
+
+        </flux:grid>
+    </flux:form>
+</f:section>
+
+
+<f:comment> <!--
+============================================
+ Content
+============================================
+--></f:comment>
+
+<f:section name="Main">
+    <f:if condition="{settings.hideHeader} == 0">
+        <div class="header">
+            <div class="dev_header">Header</div>
+            <v:content.render column="20"/>
+        </div>
+    </f:if><f:link.page pageUid="6">Login</f:link.page>
+
+    <div class="row-fluid" style="height: 100px;">
+
+        <div class="span3" role="complementary" style="float: left; margin-right: 100px;">
+            <div class="dev_header">Column 1</div>
+
+            <v:content.render column="1"/>
+        </div>
+
+        <div class="span9" role="main" style="float: left;">
+            <div class="dev_header">Column 0</div>
+            <v:content.render column="0"/>
+        </div>
+        <div class="clear" style="float: none;"></div>
+    </div>
+
+    <div class="footer">
+        <div class="dev_header">Footer</div>
+        <v:content.render column="10"/>
+    </div>
+
+</f:section>

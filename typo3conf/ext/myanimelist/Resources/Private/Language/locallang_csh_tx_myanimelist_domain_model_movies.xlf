@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-09-14T02:52:48Z" product-name="myanimelist">
+		<header/>
+		<body>
+			<trans-unit id="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="title_jp.description">
+				<source>title japanisch</source>
+			</trans-unit>
+			<trans-unit id="image.description">
+				<source>image</source>
+			</trans-unit>
+			<trans-unit id="lenght.description">
+				<source>lenght</source>
+			</trans-unit>
+			<trans-unit id="relase_date.description">
+				<source>relaseDate</source>
+			</trans-unit>
+			<trans-unit id="description.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="series.description">
+				<source>series</source>
+			</trans-unit>
+			<trans-unit id="genre.description">
+				<source>genre</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
