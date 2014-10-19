@@ -33,16 +33,21 @@ Config
 
 <f:section name="Main">
 
-    <header>
-        <div class="logo"><img src="" alt="My-Anime-List.de" title="logo"></div>
-        <f:render partial="Page/Navigation"/>
-    </header>
+   <div class="site">
+        <div class="content-bg"></div>
+        <div class="site-container">
+            <header>
+                <div class="logo"><img src="" alt="My-Anime-List.de" title="logo"></div>
+                <f:render partial="Page/Navigation"/>
+            </header>
 
-    <main>
-        <v:content.render column="0"/>
-    </main>
+            <main>
+                <v:content.render column="0"/>
+            </main>
 
-    <footer>
-        <v:content.render column="10"/>
-    </footer>
+            <footer>
+                <v:content.render column="10"/>
+            </footer>
+        </div>
+    </div>
 </f:section>

@@ -13,13 +13,13 @@ page {
      }
 
     includeCSS {
-        base = {$filepath.css}/main.css
+        base = {$filePath.css}/main.css
     }
 
     includeJSFooter {
-#        vendor = {$filepath.js}/vendor.min.js
+#        vendor = {$filePath.js}/vendor.min.js
 #        vendor.external = 1
-#        custom = {$filepath.js}/custom.min.js
+#        custom = {$filePath.js}/custom.min.js
 #        custom.external = 1
     }
 
