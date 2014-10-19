@@ -1,4 +1,4 @@
 MyAnimeList.de
 ==============
 
-Mein eigenes Kleines Typo3 Projekt zur Erstellung einer Anime Watchlist-Webseite.
+Mein eigenes kleines Typo3 Projekt zur Erstellung einer Anime Watchlist-Webseite.
