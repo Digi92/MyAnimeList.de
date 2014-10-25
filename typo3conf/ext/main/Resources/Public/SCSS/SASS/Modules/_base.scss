@@ -26,7 +26,7 @@ body, .content-bg {
     left: 0px;
     z-index: 1;
 
-    width: $site-width + 40px; /* +40px weil .site-container padding:20px hat */
+    width: $site-width;
     min-height: $site-min-height;
     margin: auto;
 }
@@ -39,7 +39,6 @@ body, .content-bg {
     /* Put this on top of the blurred layer */
     position: relative;
     z-index: 2;
-    padding: 20px;
     background: rgb(255,255,255); /* for IE */
     background: rgba(255,255,255,0.75); /* Grau: 34,34,34 */
 
@@ -48,3 +47,37 @@ body, .content-bg {
     margin: auto;
 }
 
+header {
+    background: aqua;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+
+    .logo {
+        float: left;
+        width: 20%;
+        height: 50px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    nav {
+        width: 80%;
+        float: left;
+
+        ul.registration {
+            float: right;
+        }
+
+        li {
+            float: left;
+            padding: 15px 15px 15px 15px;
+        }
+        
+        li:hover {
+            background: #00d1d1;
+        }
+    }
+}

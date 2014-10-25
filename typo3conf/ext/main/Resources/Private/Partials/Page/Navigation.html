@@ -23,4 +23,27 @@
             </f:for>
         </v:page.menu>
     </ul>
+
+    <ul class="registration">
+        <v:page.menu pageUid="21" expandAll="1" useShortcutData="1" levels="4" classHasSubpages="parent" classFirst="first" classLast="last">
+            <f:for each="{menu}" as="itemLevel0">
+                <li class="{itemLevel0.class}">
+                    <a href='{itemLevel0.link}'><span>{itemLevel0.title}</span></a>
+                    <f:if condition="{itemLevel0.hasSubPages}">
+                        <f:then>
+                            <v:page.menu.directory pages="{itemLevel0.uid}" classHasSubpages="parent" classFirst="first" classLast="last">
+                                <ul class="sub-menu">
+                                    <f:for each="{menu}" as="itemLevel1">
+                                        <li class='{itemLevel1.class}'>
+                                            <a href='{itemLevel1.link}'><span>{itemLevel1.title}</span></a>
+                                        </li>
+                                    </f:for>
+                                </ul>
+                            </v:page.menu.directory>
+                        </f:then>
+                    </f:if>
+                </li>
+            </f:for>
+        </v:page.menu>
+    </ul>
 </nav>
