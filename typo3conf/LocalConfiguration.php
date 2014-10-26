@@ -106,6 +106,13 @@ return array(
 		'image_processing' => '1',
 		'jpg_quality' => '80',
 	),
+	'INSTALL' => array(
+		'wizardDone' => array(
+			'TYPO3\CMS\Install\Updates\FilemountUpdateWizard' => 1,
+			'TYPO3\CMS\Install\Updates\TceformsUpdateWizard' => 'tt_content:image,pages:media,pages_language_overlay:media',
+			'TYPO3\CMS\Install\Updates\TruncateSysFileProcessedFileTable' => 1,
+		),
+	),
 	'SYS' => array(
 		'caching' => array(
 			'cacheConfigurations' => array(
